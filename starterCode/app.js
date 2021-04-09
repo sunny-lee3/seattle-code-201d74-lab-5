@@ -7,11 +7,18 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+  let sumOfNumbers = a + b;
+// returning an array
+// [sumOfNumbers, 'The sum of ' +a+' and ' +b+' is ' + sumOfNumbers +'.']
+  let myArray = [sumOfNumbers, 'The sum of ' +a+' and ' +b+' is ' + sumOfNumbers +'.']
+  return myArray;
 }
 
+// let result = sum(3, 10) if I just want the number I need to figure out how to get the 0 position
+// result[0]
+
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -41,7 +48,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+  // sum, the function you wroote above, will do the math for you!
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
